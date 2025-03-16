@@ -254,7 +254,6 @@ import QcmDetails from "../Components/TeacherPages/QcmDetails";
 import Lab from "../Components/SudentPages/Lab";
 import AddLesson from "../Components/TeacherPages/AddLesson";
 import Test from "../Components/SudentPages/Test";
-import RabbitDigestiveSystem from "../Components/SudentPages/RabbitDigestiveSystem ";
 
 
 
@@ -447,7 +446,7 @@ const authProtectedRoutes = [
   { path: "/quiz", component: <Quiz /> },
   { path: "/rabbit-exercice", component: <RabbitExercice /> },
   { path: "/test", component: <Test /> },
-  { path: "/rabbit", component: <RabbitDigestiveSystem /> },
+  
 
   { path: "/pages-starter", component: <Starter /> },
   { path: "/pages-profile", component: <SimplePage /> },
