@@ -61,7 +61,7 @@ const StudentsTable = () => {
     const fetchLevels = async () => {
       try {
         const response = await axios.get(
-          "http://localhost:5000/api/levels/alllevels"
+          "https://site-educatif-4.onrender.com/api/levels/alllevels"
         );
         const levelsData = response.map((level) => level.level); // Extract only the level names
         setLevels(levelsData);
